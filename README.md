@@ -1,6 +1,6 @@
 # Midjourney Node API
 
-The Midjourney Node.js API is a powerful tool for creating and streaming images using [Midjourney Node.js client](https://github.com/erictik/midjourney-api). This API offers three main routes: `imagine`, `upscale`, and `variant`.
+This is a simple node js api for creating and streaming images using [Midjourney Node.js client](https://github.com/erictik/midjourney-api). This API offers three main routes: `imagine`, `upscale`, and `variant`.
 
 This README provides an overview of these routes and how to use them.
 

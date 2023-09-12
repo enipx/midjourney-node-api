@@ -1,5 +1,6 @@
 {
   "name": "midjourney-node-api",
+  "description": "A simple Midjourney node js API for creating and streaming images",
   "version": "1.0.0",
   "license": "MIT",
   "dependencies": {
