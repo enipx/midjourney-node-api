@@ -1,0 +1,115 @@
+{
+	"info": {
+		"_postman_id": "b53772b8-65dd-4395-bec3-b50d538aa572",
+		"name": "Midjourney Node API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "2987669"
+	},
+	"item": [
+		{
+			"name": "Imagine",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"prompt\": \"Men in black\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/imagine",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"imagine"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Upscale",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"1151073605950652468\",\r\n    \"flags\": \"0\",\r\n    \"hash\": \"02437013-145d-4a23-85be-cd3c6d13d2ea\",\r\n    \"index\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/upscale",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"upscale"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Variant",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"1151073605950652468\",\r\n    \"flags\": \"0\",\r\n    \"hash\": \"02437013-145d-4a23-85be-cd3c6d13d2ea\",\r\n    \"index\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/variant",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"variant"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "baseUrl",
+			"value": "http://localhost:1000",
+			"type": "string"
+		}
+	]
+}
